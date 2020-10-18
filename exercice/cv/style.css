@@ -1,0 +1,21 @@
+body
+{background-color: black; color: white
+}
+
+
+h1
+{font-size: 40px;
+}
+
+
+h2
+{font-size : 28px; font-family: arial;
+}
+
+p
+{font-size: 14px; font-family: helvetica;
+}
+
+em
+{font-weight: bold; font-style: normal;
+}

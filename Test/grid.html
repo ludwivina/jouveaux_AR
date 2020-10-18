@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      #global
+        {
+          background-color: grey;
+          display: grid;
+          grid-template-columns:repeat(13, 1fr);
+          grid-auto-rows: 20px;
+          grid-column-gap: 5px;
+          grid-row-gap: 5px;
+        }
+        #global div {
+          background-color: yellow;
+          border: black 10px;
+
+        }
+
+        .box1 {
+          grid-area: 1/1/4/7
+        }
+        .box2 {
+          grid-area: 1/7/4/9
+        }
+        .box3 {
+          grid-area: 1/9/4/13
+        }
+        .box4 {
+          grid-area: 4/1/6/5
+        }
+        .box5 {
+          grid-area: 4/5/6/13
+        }
+
+    </style>
+      <title> Salut </title>
+  </head>
+
+  <body>
+    <div id=global>
+      <div class="box1">one </div>
+      <div class="box2">two </div>
+      <div class="box3">three </div>
+      <div class="box4">quatre </div>
+      <div class="box5">cinq </div>
+    </div>
+  </body>
+</html>
