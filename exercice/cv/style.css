@@ -1,21 +1,77 @@
+@font-face {
+    font-family: 'oswald_regular';
+    src: url('oswald_regular.ttf');
+}
+
 body
-{background-color: black; color: white
+{
+    background-image: url('photo/fond.jpg');;
+    color: black;
 }
 
-
-h1
-{font-size: 40px;
+h1, h2
+{
+    font-family: 'oswald_regular';
+    color: #195e84;
 }
 
-
-h2
-{font-size : 28px; font-family: arial;
+h1, h1 + p
+{
+    text-align: center;
 }
+
+#info
+{border: 1px solid black;}
 
 p
-{font-size: 14px; font-family: helvetica;
+{
+  font-size: 14px;
+  font-family: helvetica;
+  text-align: justify;
+}
+
+img
+{
+    float: right;
+    margin: 1px;
+}
+
+#information
+{
+border: 1px solid black;
+}
+
+section
+{
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin-right: 3%;
+}
+
+#liseret, #container
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#liseret
+{
+    width: 10%;
+    margin-right: 3%;
+    height: 730px;
+    background-color: #195e84;
+    border-radius: 0px;
+    box-shadow: 2px 2px 2px navy;
+}
+
+#container
+{
+    width: 85%;
 }
 
 em
-{font-weight: bold; font-style: normal;
+{
+  font-weight: bold;
+  font-style: normal;
 }
